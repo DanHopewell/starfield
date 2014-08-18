@@ -1,0 +1,71 @@
+*, *:before, *:after {
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+#starfield {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	overflow: hidden;
+}
+
+#key {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 0.5em;
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	z-index: 500;
+}
+
+#key li {
+	display: inline-block;
+	padding: 0.5em 1em;
+}
+
+.star {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: block;
+	background-color: rgba(255, 255, 255, 1);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.bird-on-it {
+	background-image: url('../img/twitter.svg');
+	background-size: 75% auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.doge-on-it {
+	background-image: url('../img/doge.jpg');
+	background-size: 142% auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.nyan-on-it {
+	background-image: url('../img/nyan.png');
+	background-size: 100% auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.jim-on-it {
+	background-image: url('../img/jim.png');
+	background-size: 100% auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
